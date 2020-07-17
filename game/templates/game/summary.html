@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<center>
+  <h1 style="font-family:courier;color:Blue"> Summary </h1>
+  <br>
+  <br>
+
+  <h2 style="font-family:courier;color:Pink">Hello!!!! {{ name }} </h2>
+  <h3><u>Here are the answers selected:</u></h3>
+  <h2>Who is the best cricketer in the world?<h2>
+    <h4>Answer: {{ cricketer }}</h4>
+  <h2>What are the colors in the national flag?</h2>
+    <h4>Answer: {{ flag }}</h4>
+
+  <div class="alert alert-info" role="alert">
+    <a href ="{% url 'home' %}">FINISH</a>
+  </div>
+  <div class="alert alert-info" role="alert">
+    <a href ="{% url 'history' %}">HISTORY</a>
+  </div>
+
+<center>

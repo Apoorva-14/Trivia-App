@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<center>
+
+  <form action="{% url 'flag' %}" method="GET">
+
+    <label for="cricketer">Who is the best cricketer in the world?</label><br>
+      <select id="cricketer">
+        <option value="Sachin Tendulkar">Sachin Tendulkar</option>
+        <option value="Virat Kohli">Virat Kohli</option>
+        <option value="Adam Gilchirst">Adam Gilchirst</option>
+        <option value="Jacques Kallis">Jacques Kallis</option>
+      </select>
+      <br>
+      <br>
+    <input type="submit" value="NEXT">
+  </form>
+
+</center>
